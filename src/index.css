@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Ocultar elementos innecesarios al imprimir */
+@media print {
+  header,
+  nav,
+  .no-print,
+  button,
+  .offline-bar {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .shadow-xs,
+  .shadow-sm,
+  .shadow-md,
+  .shadow-2xl {
+    box-shadow: none !important;
+  }
+}
+
+/* Ocultar barra de scroll en contenedores horizontales */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes swing {
+  0%, 100% { transform: rotate(0deg); }
+  20% { transform: rotate(15deg); }
+  40% { transform: rotate(-10deg); }
+  60% { transform: rotate(5deg); }
+  80% { transform: rotate(-5deg); }
+}
+
+.animate-swing {
+  animation: swing 1s ease-in-out infinite;
+}

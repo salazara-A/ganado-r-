@@ -1,0 +1,8 @@
+{
+  "name": "GanadoPro - Sistema Ganadero Offline & UPP",
+  "description": "Sistema de inventario ganadero y control pecuario offline para celular, tablet y PC. Aretes, vacunas, historial clínico, partos, calendario, reportes diarios y sincronización.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

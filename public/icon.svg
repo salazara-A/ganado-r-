@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#166534"/>
+  <circle cx="256" cy="256" r="210" fill="#15803d" stroke="#fef08a" stroke-width="8" stroke-dasharray="16 12" opacity="0.6"/>
+  <!-- Cow/Bull silhouette icon with ear tag -->
+  <g fill="#ffffff">
+    <!-- Horns -->
+    <path d="M140 180 C110 120, 160 80, 200 120 C180 145, 160 165, 140 180 Z" />
+    <path d="M372 180 C402 120, 352 80, 312 120 C332 145, 352 165, 372 180 Z" />
+    <!-- Ears -->
+    <ellipse cx="120" cy="230" rx="42" ry="22" transform="rotate(-25 120 230)" />
+    <ellipse cx="392" cy="230" rx="42" ry="22" transform="rotate(25 392 230)" />
+    <!-- Head -->
+    <path d="M170 180 L342 180 L320 310 C310 370, 202 370, 192 310 Z" />
+    <!-- Snout / Muzzle -->
+    <rect x="180" y="300" width="152" height="96" rx="42" fill="#fef08a"/>
+    <!-- Nostrils -->
+    <ellipse cx="220" cy="350" rx="14" ry="18" fill="#854d0e"/>
+    <ellipse cx="292" cy="350" rx="14" ry="18" fill="#854d0e"/>
+    <!-- Eyes -->
+    <circle cx="205" cy="230" r="14" fill="#14532d"/>
+    <circle cx="307" cy="230" r="14" fill="#14532d"/>
+    <circle cx="209" cy="226" r="4" fill="#ffffff"/>
+    <circle cx="311" cy="226" r="4" fill="#ffffff"/>
+  </g>
+  <!-- Ear tag (Arete Ganadero) in left ear -->
+  <g transform="translate(100, 240) rotate(-10)">
+    <polygon points="12,0 36,0 44,48 4,48" fill="#eab308" stroke="#ca8a04" stroke-width="2"/>
+    <circle cx="24" cy="8" r="4" fill="#ffffff"/>
+    <!-- Text on ear tag -->
+    <text x="24" y="36" font-family="sans-serif" font-weight="900" font-size="14" fill="#713f12" text-anchor="middle">UPP</text>
+  </g>
+</svg>
